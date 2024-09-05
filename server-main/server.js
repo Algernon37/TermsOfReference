@@ -8,7 +8,7 @@ const https = require('https');
 
 const app = express();
 const port = process.env.PORT || 3000;
-const telegramToken = '7376492807:AAH8_faU0KO8Jhb3h69K_YvlhDpphZ77_Rk';
+const telegramToken = '<MyTelegramToken>';
 const telegramApiUrl = `https://api.telegram.org/bot${telegramToken}`;
 
 const options = {
